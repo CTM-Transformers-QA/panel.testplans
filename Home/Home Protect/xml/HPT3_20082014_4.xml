@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tem="http://tempuri.org/" xmlns:web="http://www.webmoney.co.uk/xsd/Hp2Xml.xsd">
+  <soap:Body>
+    <tem:GetQuote>
+      <tem:userName>Compare the Market (AXA)</tem:userName>
+      <tem:passWord>XE97TB4KLM451132</tem:passWord>
+      <tem:quotationDataXml>&lt;web:QuestionData xmlns:web="http://www.webmoney.co.uk/xsd/Hp2Xml.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;web:TitleID&gt;004&lt;/web:TitleID&gt;
+  &lt;web:FirstName&gt;Sarah&lt;/web:FirstName&gt;
+  &lt;web:LastName&gt;Jones&lt;/web:LastName&gt;
+  &lt;web:DateOfBirth&gt;1978-04-21&lt;/web:DateOfBirth&gt;
+  &lt;web:Sex&gt;F&lt;/web:Sex&gt;
+  &lt;web:MaritalStatusID originalvalueid="Married"&gt;2&lt;/web:MaritalStatusID&gt;
+  &lt;web:OccupationID originalvalueid="Insurance Consultant"&gt;787&lt;/web:OccupationID&gt;
+  &lt;web:BusinessID originalvalueid="Insurance"&gt;77&lt;/web:BusinessID&gt;
+  &lt;web:Email&gt;deborah.biggs@comparethemarket.com&lt;/web:Email&gt;
+  &lt;web:DaytimeTelephoneNumber&gt;01733 8455216&lt;/web:DaytimeTelephoneNumber&gt;
+  &lt;web:PropertyHouseNumber&gt;29&lt;/web:PropertyHouseNumber&gt;
+  &lt;web:PropertyStreet1&gt;Newton Road&lt;/web:PropertyStreet1&gt;
+  &lt;web:PropertyStreet2&gt;Lindfield&lt;/web:PropertyStreet2&gt;
+  &lt;web:PropertyTownCity&gt;Haywards Heath&lt;/web:PropertyTownCity&gt;
+  &lt;web:PropertyCounty&gt;West Sussex&lt;/web:PropertyCounty&gt;
+  &lt;web:PropertyPostcode&gt;RH16 2NB&lt;/web:PropertyPostcode&gt;
+  &lt;web:IsSameAsRiskAddress&gt;1&lt;/web:IsSameAsRiskAddress&gt;
+  &lt;web:IsJointApplicant&gt;0&lt;/web:IsJointApplicant&gt;
+  &lt;web:SoleOccupancy originalvalueid="All family members"&gt;1&lt;/web:SoleOccupancy&gt;
+  &lt;web:HaveConvictions&gt;0&lt;/web:HaveConvictions&gt;
+  &lt;web:BankruptOrCCJOrIVA&gt;0&lt;/web:BankruptOrCCJOrIVA&gt;
+  &lt;web:RefusedCancelled&gt;0&lt;/web:RefusedCancelled&gt;
+  &lt;web:PreviouslyBoughtHomeInsurance&gt;1&lt;/web:PreviouslyBoughtHomeInsurance&gt;
+  &lt;web:StartDate&gt;2014-09-01&lt;/web:StartDate&gt;
+  &lt;web:CoverTypeID originalvalueid="Buildings &amp;amp; Contents Cover"&gt;1&lt;/web:CoverTypeID&gt;
+  &lt;web:NumberOfYearsInsuranceHeld originalvalueid="5 years or more"&gt;5&lt;/web:NumberOfYearsInsuranceHeld&gt;
+  &lt;web:PreviousClaims&gt;0&lt;/web:PreviousClaims&gt;
+  &lt;web:PropertyTypeID originalvalueid="Semi-detached House"&gt;10&lt;/web:PropertyTypeID&gt;
+  &lt;web:YearBuilt&gt;1960&lt;/web:YearBuilt&gt;
+  &lt;web:Bedrooms originalvalueid="Three"&gt;3&lt;/web:Bedrooms&gt;
+  &lt;web:WallConstructionID originalvalueid="Brick"&gt;02&lt;/web:WallConstructionID&gt;
+  &lt;web:RoofConstructionID originalvalueid="Tile"&gt;15&lt;/web:RoofConstructionID&gt;
+  &lt;web:Roof33PercentFlat&gt;0&lt;/web:Roof33PercentFlat&gt;
+  &lt;web:RoofThatched&gt;0&lt;/web:RoofThatched&gt;
+  &lt;web:PropertyListed&gt;0&lt;/web:PropertyListed&gt;
+  &lt;web:SignsOfSubsidence&gt;0&lt;/web:SignsOfSubsidence&gt;
+  &lt;web:IssueRectified&gt;1&lt;/web:IssueRectified&gt;
+  &lt;web:underpinned&gt;0&lt;/web:underpinned&gt;
+  &lt;web:GoodStateOfRepair&gt;1&lt;/web:GoodStateOfRepair&gt;
+  &lt;web:OwnershipTypeID originalvalueid="Mortgaged/Owned - Not rented out"&gt;OWN01&lt;/web:OwnershipTypeID&gt;
+  &lt;web:OccupiedWhenID originalvalueid="Occupied Day and Night"&gt;OCC03&lt;/web:OccupiedWhenID&gt;
+  &lt;web:ConsecutiveDaysUnoccupiedID originalvalueid="Up to 45"&gt;30&lt;/web:ConsecutiveDaysUnoccupiedID&gt;
+  &lt;web:DomesticUseOnly originalvalueid="No business or professional use"&gt;1&lt;/web:DomesticUseOnly&gt;
+  &lt;web:PropertyUseType&gt;OWN01&lt;/web:PropertyUseType&gt;
+  &lt;web:MainLocksID originalvalueid="Key to lock outside. Unlock/pull down lever to enter"&gt;2&lt;/web:MainLocksID&gt;
+  &lt;web:PatioLocksID originalvalueid="No sliding doors or french windows"&gt;1&lt;/web:PatioLocksID&gt;
+  &lt;web:OtherLocksID originalvalueid="No Other External Doors"&gt;5&lt;/web:OtherLocksID&gt;
+  &lt;web:KeyOperatedWindows&gt;1&lt;/web:KeyOperatedWindows&gt;
+  &lt;web:BurglarAlarm&gt;0&lt;/web:BurglarAlarm&gt;
+  &lt;web:NACOSSApproved&gt;0&lt;/web:NACOSSApproved&gt;
+  &lt;web:Safe&gt;0&lt;/web:Safe&gt;
+  &lt;web:SmokeAlarm&gt;1&lt;/web:SmokeAlarm&gt;
+  &lt;web:Within200mWater&gt;0&lt;/web:Within200mWater&gt;
+  &lt;web:BuildingsSumInsured&gt;162000&lt;/web:BuildingsSumInsured&gt;
+  &lt;web:BuildingsAccidentalDamage&gt;0&lt;/web:BuildingsAccidentalDamage&gt;
+  &lt;web:BuildingsVolExcess originalvalueid="100"&gt;100&lt;/web:BuildingsVolExcess&gt;
+  &lt;web:ContentsSumInsured&gt;35000&lt;/web:ContentsSumInsured&gt;
+  &lt;web:ContentsAccidentalDamage&gt;0&lt;/web:ContentsAccidentalDamage&gt;
+  &lt;web:ContentsVolExcess originalvalueid="100"&gt;100&lt;/web:ContentsVolExcess&gt;
+&lt;/web:QuestionData&gt;</tem:quotationDataXml>
+    </tem:GetQuote>
+  </soap:Body>
+</soap:Envelope>
